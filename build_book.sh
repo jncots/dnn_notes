@@ -7,4 +7,3 @@ echo "Building Jupyter Book..."
 jupyter-book build --path-output "$BUILD_DIR" "$SOURCE_DIR"
 
 echo "Build completed. Output located in $BUILD_DIR"
-ghp-import -n -p -f ../build_dnn_notes/_build/html
