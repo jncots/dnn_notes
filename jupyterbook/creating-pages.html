@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Creating Jupyter Book Pages &#8212; My sample book</title>
+    <title>4. How this pages are created &#8212; DNN notes</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'jupyterbook/creating-pages';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Notebooks with MyST Markdown" href="../markdown-notebooks.html" />
+    <link rel="prev" title="3. Notebooks with MyST Markdown" href="../original/markdown-notebooks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -141,7 +141,7 @@
     
   
 
-<a class="navbar-brand logo" href="../intro.html">
+<a class="navbar-brand logo" href="../original/intro.html">
   
   
   
@@ -152,8 +152,8 @@
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="DNN notes - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="DNN notes - Home"/>`);</script>
   
   
 </a></div>
@@ -173,16 +173,20 @@
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
+                <a class="reference internal" href="../original/intro.html">
                     Welcome to your Jupyter Book
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Creating Jupyter Book Pages</a></li>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Original document</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../original/markdown.html">1. Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../original/notebooks.html">2. Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../original/markdown-notebooks.html">3. Notebooks with MyST Markdown</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Jupyter Book</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">4. How this pages are created</a></li>
 </ul>
 
     </div>
@@ -368,7 +372,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Creating Jupyter Book Pages</h1>
+    <h1>How this pages are created</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,9 +382,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-jupyter-book-pages">Structure of Jupyter Book Pages</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-new-pages">Adding New Pages</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuilding-the-book">Rebuilding the Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-jupyter-book-pages">4.1. Structure of Jupyter Book Pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-new-pages">4.2. Adding New Pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuilding-the-book">4.3. Rebuilding the Book</a></li>
 </ul>
             </nav>
         </div>
@@ -392,15 +396,15 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="creating-jupyter-book-pages">
-<h1>Creating Jupyter Book Pages<a class="headerlink" href="#creating-jupyter-book-pages" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="how-this-pages-are-created">
+<h1><span class="section-number">4. </span>How this pages are created<a class="headerlink" href="#how-this-pages-are-created" title="Link to this heading">#</a></h1>
 <p>In this section, we explain how the pages of this book are created and structured.</p>
 <section id="structure-of-jupyter-book-pages">
-<h2>Structure of Jupyter Book Pages<a class="headerlink" href="#structure-of-jupyter-book-pages" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">4.1. </span>Structure of Jupyter Book Pages<a class="headerlink" href="#structure-of-jupyter-book-pages" title="Link to this heading">#</a></h2>
 <p>Each page is written in Markdown or Jupyter Notebook format. Markdown files are typically placed in the <code class="docutils literal notranslate"><span class="pre">content/</span></code> folder, while notebooks are placed in the <code class="docutils literal notranslate"><span class="pre">notebooks/</span></code> folder.</p>
 </section>
 <section id="adding-new-pages">
-<h2>Adding New Pages<a class="headerlink" href="#adding-new-pages" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">4.2. </span>Adding New Pages<a class="headerlink" href="#adding-new-pages" title="Link to this heading">#</a></h2>
 <p>To add a new page:</p>
 <ul class="simple">
 <li><p>Create a new <code class="docutils literal notranslate"><span class="pre">.md</span></code> or <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file in the appropriate folder.</p></li>
@@ -409,7 +413,7 @@ document.write(`
 </ul>
 </section>
 <section id="rebuilding-the-book">
-<h2>Rebuilding the Book<a class="headerlink" href="#rebuilding-the-book" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">4.3. </span>Rebuilding the Book<a class="headerlink" href="#rebuilding-the-book" title="Link to this heading">#</a></h2>
 <p>After making changes to the content or structure of your Jupyter Book, use the following command to rebuild the book:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>build<span class="w"> </span>.
 </pre></div>
@@ -448,12 +452,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../markdown-notebooks.html"
+       href="../original/markdown-notebooks.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>Notebooks with MyST Markdown</p>
       </div>
     </a>
 </div>
@@ -472,9 +476,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-jupyter-book-pages">Structure of Jupyter Book Pages</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-new-pages">Adding New Pages</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuilding-the-book">Rebuilding the Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-jupyter-book-pages">4.1. Structure of Jupyter Book Pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-new-pages">4.2. Adding New Pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuilding-the-book">4.3. Rebuilding the Book</a></li>
 </ul>
   </nav></div>
 
@@ -489,7 +493,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Anton P.
 </p>
 
   </div>

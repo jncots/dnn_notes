@@ -1,4 +1,4 @@
-# Creating Jupyter Book Pages
+# How this pages are created
 
 In this section, we explain how the pages of this book are created and structured.
 
