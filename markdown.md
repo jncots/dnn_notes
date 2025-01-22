@@ -1,17 +1,3 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Markdown Files
 
 Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
@@ -60,13 +46,10 @@ render properly.
 For example, if the references for your book are stored in `references.bib`,
 then the bibliography is inserted with:
 
-
+```{bibliography}
+```
 
 ## Learn more
 
 This is just a simple starter to get you started.
 You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
-
-
-```{bibliography}
-```
